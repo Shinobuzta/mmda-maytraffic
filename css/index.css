@@ -1,0 +1,27 @@
+.banner{
+    background: url(../img/bg10.jpeg) no-repeat center top;
+    background-attachment: fixed;
+    padding-top: 320px;
+    padding-bottom: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    -moz-box-shadow:    inset 0 0 100px #000000;
+    -webkit-box-shadow: inset 0 0 100px #000000;
+    box-shadow:         inset 0 0 100px #000000;
+}
+.contents{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 700px;
+}
+#newsfeed{
+	height:300px;
+	overflow: auto;
+}
+#advisories{
+	height:350px;
+	overflow: auto;
+}
